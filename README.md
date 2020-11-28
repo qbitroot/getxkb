@@ -14,7 +14,7 @@ To see layout in lowercase uncomment 2 lines like `tok[N] = tok[N] - 0x20;` and 
 
 ## Installation
 
-First, install `libx11-dev` with your package manager. For example, `sudo apt install libx11-dev`
+First, install `libx11-dev` and `libxkbfile-dev` with your package manager. For example, `sudo apt install libx11-dev libxkbfile-dev`
 
 Then clone this repository: `git clone https://github.com/qbitroot/getxkb`
 
