@@ -19,4 +19,5 @@ To make getxkb binary available global, execute command:
 (`/usr/local/bin` has to be in your `$PATH`)
 
 ## Objective
+
 One day I started using i3wm. And it didn't show current keyboard layout. I found a C program that does almost what I need, then I modified it. So here is the result!
