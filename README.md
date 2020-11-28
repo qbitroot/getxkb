@@ -2,6 +2,8 @@
 
 GetXKB shows you current X11 keyboard layout.
 
+`TODO:` Create makefile.
+
 ## Usage
 
 `./getxkb`
