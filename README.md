@@ -6,9 +6,19 @@ GetXKB shows you current X11 keyboard layout.
 
 `./getxkb`
 
+Example output: `US`
+
+I tested this program on Arch GNU/Linux with i3wm
+
 To see layout in lowercase uncomment 2 lines like `tok[N] = tok[N] - 0x20;` and recompile program.
 
-## Compiling
+## Installation
+
+First, install `libx11-dev` with your package manager. For example, `sudo apt install libx11-dev`
+
+Then clone this repository: `git clone https://github.com/qbitroot/getxkb`
+
+Compile project:
 
 `gcc -I/usr/include getxkb.c -lX11 -lxkbfile -o getxkb`
 
